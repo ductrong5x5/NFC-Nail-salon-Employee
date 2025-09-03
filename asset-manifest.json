@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/NFC-Nail-salon-Employee/static/css/main.651f48b9.css",
-    "main.js": "/NFC-Nail-salon-Employee/static/js/main.d24c303b.js",
+    "main.js": "/NFC-Nail-salon-Employee/static/js/main.d46a14c2.js",
     "static/js/453.96453769.chunk.js": "/NFC-Nail-salon-Employee/static/js/453.96453769.chunk.js",
+    "static/media/avatar.jpg": "/NFC-Nail-salon-Employee/static/media/avatar.31461f048645b62a8620.jpg",
     "index.html": "/NFC-Nail-salon-Employee/index.html",
     "main.651f48b9.css.map": "/NFC-Nail-salon-Employee/static/css/main.651f48b9.css.map",
-    "main.d24c303b.js.map": "/NFC-Nail-salon-Employee/static/js/main.d24c303b.js.map",
+    "main.d46a14c2.js.map": "/NFC-Nail-salon-Employee/static/js/main.d46a14c2.js.map",
     "453.96453769.chunk.js.map": "/NFC-Nail-salon-Employee/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.651f48b9.css",
-    "static/js/main.d24c303b.js"
+    "static/js/main.d46a14c2.js"
   ]
 }
