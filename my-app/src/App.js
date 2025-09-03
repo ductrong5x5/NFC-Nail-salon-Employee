@@ -1,6 +1,9 @@
 import { useState } from 'react'; // Import useState
 import './App.css';
-
+import nailTechPic from './assets/avatar.jpg';  
+import zellepic from './assets/Zelle.png';  
+import cashapppic from './assets/cash_app.png';  
+import venmopic from './assets/Venmo.png';  
 function App() {
   const [showPopup, setShowPopup] = useState(false);
   const [username, setUsername] = useState('');
@@ -30,7 +33,7 @@ function App() {
         {/* Profile Section */}
         <div className="profile-section">
           <img
-            src="/avatar.jpg"
+            src={nailTechPic}
             alt="Nail Technician"
             className="profile-pic"
           />
@@ -42,13 +45,13 @@ function App() {
         <div className="payments">
           {/* Use onClick to handle the username display */}
           <a href="#" onClick={(e) => handlePaymentClick('8657709018','Zelle',"Phone number")} rel="noreferrer">
-            <img src="/Zelle.png" alt="Zelle" className="payment-logo" />
+            <img src={zellepic} alt="Zelle" className="payment-logo" />
           </a>
           <a href="venmo://paycharge?txn=pay&recipients=DucThinh-Nguyen-312" target="_blank" rel="noreferrer">
-            <img src="/Venmo.png" alt="Venmo" className="payment-logo" />
+            <img src={venmopic} alt="Venmo" className="payment-logo" />
           </a>
           <a href="https://cash.app/$ThinhNguyen11" target="_blank" rel="noreferrer">
-            <img src="/CashApp.png" alt="Cash App" className="payment-logo" />
+            <img src={cashapppic} alt="Cash App" className="payment-logo" />
           </a>
         </div>
         
